@@ -18,7 +18,7 @@ repositories {
     }
     maven {
         name 'volley'
-        url 'http://jcenter.bintray.com'
+        url 'https://jcenter.bintray.com'
     }
 }
 
