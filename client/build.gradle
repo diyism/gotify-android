@@ -16,10 +16,6 @@ repositories {
         name 'hypertrack'
         url 'https://s3-us-west-2.amazonaws.com/m2.hypertrack.com/'
     }
-    maven {
-        name 'volley'
-        url 'https://jcenter.bintray.com'
-    }
 }
 
 
@@ -46,7 +42,8 @@ dependencies {
         exclude group:'org.apache.oltu.oauth2' , module: 'org.apache.oltu.oauth2.common'
     }
     implementation 'com.hypertrack:hyperlog:0.0.10'
-    implementation 'com.android.volley:volley:1.0.0'
+    //implementation 'com.android.volley:volley:1.0.0'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
     api "io.gsonfire:gson-fire:$json_fire_version"
     api "org.threeten:threetenbp:$threetenbp_version"
     testImplementation "junit:junit:$junit_version"
