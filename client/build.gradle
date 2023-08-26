@@ -17,7 +17,7 @@ repositories {
         url 'https://s3-us-west-2.amazonaws.com/m2.hypertrack.com/'
     }
     maven {
-        name 'com.android.volley'
+        id 'com.android.volley'
         url 'https://jcenter.bintray.com'
     }
 }
