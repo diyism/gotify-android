@@ -12,6 +12,10 @@ buildscript {
 
 repositories {
     mavenCentral()
+    maven {
+        name 'hypertrack'
+        url 'https://s3-us-west-2.amazonaws.com/m2.hypertrack.com/'
+    }
 }
 
 
