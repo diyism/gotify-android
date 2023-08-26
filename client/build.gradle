@@ -43,7 +43,6 @@ dependencies {
         exclude group:'org.apache.oltu.oauth2' , module: 'org.apache.oltu.oauth2.common'
     }
     implementation 'com.hypertrack:hyperlog:0.0.10'
-    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
     api "io.gsonfire:gson-fire:$json_fire_version"
     api "org.threeten:threetenbp:$threetenbp_version"
     testImplementation "junit:junit:$junit_version"
